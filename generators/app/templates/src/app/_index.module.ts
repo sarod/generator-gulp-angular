@@ -16,7 +16,7 @@ import { acmeMalarkey } from '../app/components/malarkey/malarkey.directive';
 declare var malarkey: any;
 declare var moment: moment.MomentStatic;
 
-module <%- appName %> {
+namespace <%- appName %> {
   'use strict';
 
   angular.module('<%- appName %>', [<%- modulesDependencies %>])
